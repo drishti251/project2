@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Register Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2 id="form-title">Login Form</h2>
+        <form id="loginForm">
+            <div class="input-group" id="name-group">
+                <input type="text" id="name" placeholder="Full Name">
+                <div class="error-text" id="nameError"></div>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Email Address">
+                <div class="error-text" id="emailError"></div>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password">
+                <div class="error-text" id="passwordError"></div>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+
+        <p class="toggle">Not a member? <a id="toggleForm">Register now</a></p>
+
+         
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
